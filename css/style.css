@@ -1,0 +1,14 @@
+/* border-collapse removes default gaps between table cells */
+.chess-board {
+    border-collapse: collapse;
+    border: 2px solid #000;
+    margin: 20px auto;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+}
+
+.w { background-color: #f0d9b5; }
+.b { background-color: #b58863; }

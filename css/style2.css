@@ -1,0 +1,12 @@
+.board-grid {
+    display: grid;
+    grid-template-columns: repeat(8, 60px); /* Create 8 columns exactly 60px wide */
+    grid-template-rows: repeat(8, 60px);    /* Create 8 rows exactly 60px tall */
+    width: max-content;
+    border: 2px solid #000;
+    margin: 20px auto;
+}
+
+/* We don't even need a .cell class, just target the color classes directly */
+.w { background-color: #f0d9b5; }
+.b { background-color: #b58863; }
